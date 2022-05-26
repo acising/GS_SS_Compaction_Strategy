@@ -1,0 +1,11 @@
+digraph graph1 {
+node [shape = Mrecord];
+table99 [label = "{<head>processname: bash | pid: 1724 | cmdline: bash | starttime: 1585289901467000000 | enddtime: -1 | label: PT4 Execute file from network. timestamp: 1585289871756000000}", color = red];
+table94 [shape = record, label = "{<head>filename: /home/spade/vi_passwd | label: FT1 The file contains data from network. timestamp: 1585289871756000000}"];
+table80 [label = "{<head>processname: wget | pid: 1720 | cmdline: wget list.zju.edu.cn/vi_passwd | starttime: 1585289871756000000 | enddtime: 1585289871944000000 | label: PT1 The process has network connections. timestamp: 1585289871756000000}"];
+table80 -> table94[label = "action: 1  PT1->FT1"];
+table99 -> table94[label = "action: 10  FT1->PT4"];
+node [shape = record];
+table10 [label = "{<head>processname: bash | pid: 1690 | cmdline: bash | starttime: 1585289749287000000 | enddtime: -1 | uuid: 1690}"];
+table10 -> table99[label = "event: Create process"];
+}

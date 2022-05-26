@@ -1,0 +1,21 @@
+PT1,0,1,TRUE,The process has network connections.
+PT4,0,0.5,PHF,Execute file from network.
+FT1,0,0.5,FALSE,The file contains data from network.
+PT2,1,1,PHF,The process read sensitive information.
+PT5,1,1,PHF,The process execute sensitive file.
+FT2,0,1,FALSE,The file is sensitive as default.
+PT3,0,0.5,CodeSource,Access data from network.
+FT3,0,1,FALSE,The file is from portable device.
+FT4,0,1,FALSE,File is modified or created recently.
+FT5,0,1,FALSE,File is writed by a process which execute untrust code.
+FT6,0,1,FALSE,The file is sensitive.
+PT10,1,0.63,PHF,Its descendant process has done PHF.
+PT6,1,1,PHF,The process call sensitive command.
+PT7,0,1,TRUE,Its parent or ancestor process has network connection.
+PT8,0,1,TRUE,Its parent or ancestor process execute file from network.
+PT9,1,0.63,PHF,Its parent or ancestor process has done PHF.
+FT99,1,1,FALSE,The file is uploaded.
+PT98,1,1,FALSE,The uploaded file is read.
+PT97,1,1,PHF,Call sensitive command.
+PT96,1,1,PHF,Its parent or ancestor process load the uploaded file.
+PT93,1,1,FALSE,The uploaded file is read.

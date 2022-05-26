@@ -1,0 +1,5 @@
+﻿/etc/passwd/
+/etc/shadow
+.bash_profile
+.bashrc
+/etc/crontab

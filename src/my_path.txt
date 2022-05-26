@@ -1,0 +1,9 @@
+/etc/issue
+/etc/*-release
+/etc/passwd/
+/etc/shadow
+/etc/group
+~/.bash_history
+.bash_profile
+.bashrc
+/etc/crontab

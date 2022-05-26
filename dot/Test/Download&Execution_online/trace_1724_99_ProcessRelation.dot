@@ -1,0 +1,7 @@
+digraph graph1 {
+node [shape = record];
+table99 [label = "{<head>processname: bash | pid: 1724 | cmdline: bash | starttime: 1585289901467000000 | enddtime: -1 | uuid: 1724}", color = red];
+node [shape = record];
+table10 [label = "{<head>processname: bash | pid: 1690 | cmdline: bash | starttime: 1585289749287000000 | enddtime: -1 | uuid: 1690}"];
+table10 -> table99;
+}
